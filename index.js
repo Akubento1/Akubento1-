@@ -13,7 +13,7 @@ const tambahan = require("./lib/tambahan.js")
 const donasi = require("./lib/donasi.js");
 const info = require("./lib/info.js");
 /////////////////
-const BotName = 'Bott Zii☄'; 
+const BotName = '🔰Bott Zii🔰'; 
 const instagram = 'https://instagram.com/M.Alfrzyy_'; 
 const telegram = 'https://t.me/Zii'; 
 const kapanbotaktif = 'KETIKA HANYA DIAKTIFKAN'; 
