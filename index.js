@@ -642,6 +642,7 @@ if (text.includes("!alay")){
 	})
 }
 
+if (text.includes("!tagAll")){
 tagall':
         case 'everyone':
             /**
