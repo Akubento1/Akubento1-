@@ -642,7 +642,21 @@ if (text.includes("!alay")){
 	})
 }
 
-
+tagall':
+        case 'everyone':
+            /**
+            * This is Premium feature.
+            * Check premium feature at https://trakteer.id/red-emperor/showcase or chat Author for Information.
+            */
+            client.reply(from, 'ehhh, what\'s that???', id)
+            break
+        case 'botstat': {
+            const loadedMsg = await client.getAmountOfLoadedMessages()
+            const chatIds = await client.getAllChatIds()
+            const groups = await client.getAllGroups()
+            client.sendText(from, `Status :\n- *${loadedMsg}* Loaded Messages\n- *${groups.length}* Group Chats\n- *${chatIds.length - groups.length}* Personal Chats\n- *${chatIds.length}* Total Chats`)
+            break
+        }
 
 
 
